@@ -160,3 +160,227 @@ font-size: 26px;
     margin-top: 20px;
 }
 }
+/*about*/
+.bundle{
+    text-align: center;
+}
+.packages-lists{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.package{
+    flex-grow: 0.5;
+    padding: 1.3rem 0;
+    border: 1px solid #049c9a;
+    border-top: none;
+    font-weight: 700;
+    color: #049c9a;
+}
+.package:first-child{
+    background-color: #049c9a;
+    color: white;
+}
+.plan{
+    color: #818181;
+    margin: 2rem;
+    font-weight: 500;
+}
+.specification{
+    text-align: left;
+}
+.sub-bundle{
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bundle-heading{
+    margin: 0;
+    flex-grow: 1;
+}
+.date{
+    margin-top: 20px;
+    color: #818181;
+}
+.radio-date{
+    display: block;
+    width: 143px;
+    height: 25px;
+    margin-top: 6px;
+    position: relative;
+}
+.radio-date::before,.radio-date::after{
+
+position: absolute;
+
+top: 0;
+border-radius: 15px;
+font-size: 12px;
+color: white;
+text-align: left;
+
+}
+.radio-date::before{
+    width: 130px;
+    content:"30 Days";
+background: #033635;
+left: 0;
+height: 25px;
+padding-top: 15px;
+padding-left: 15px;
+}
+.radio-date::after{
+    width: 65px;
+    content: "90 Days";
+    background: #049c9a;
+    right: 1px;
+    height: 25px;
+    margin: 3px 0;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.data-bundle{
+    display: block;
+    text-align: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.shapes{
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+    padding-top: 25%;
+    border: 5px solid #818181;
+    background-color: #e5e5e5;
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+    transition: all 0.25s ease-in-out;
+}
+.shapes span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    color: #818181;
+    font-weight: 700;
+}
+.shapes:hover{
+    border-color: #049c9a;
+    cursor: pointer;
+}
+.price{
+    display: block;
+    width: 65%;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    background-color: #049c9a;
+    border: transparent;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.social-list{
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+.social-list li{
+    padding-left: 5px;
+}
+.fa-facebook-square{
+    color: #4267B2;
+}
+.fa-whatsapp{
+    color: 	#6EA000;
+}
+.fa-twitter-square{
+    color:  #00acee;
+}
+.fa-snapchat-square{
+    color: #FFFC00;
+}
+.fa-soundcloud{
+    color: #ff7700 ;
+}
+.fa-instagram{
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    color: white;
+    background: #d6249f;
+    background:  radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
+}
+.feature-background{
+    position:relative;
+    width: 100%;
+}
+.feature-background::before{
+    position: absolute;
+    content: "";
+    height: 300px;
+    background: url("images/background-images/diverse-friends-using-their-devices.jpg"), rgba(0, 0, 0,0.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    background-position: center;
+    width: 100%;
+    z-index: -1;
+    background-blend-mode: overlay;
+}
+.features{
+    margin-top: 100px;
+    height: 300px;
+}
+@media(min-width:576px) and (max-width:992px){
+  .navbar-lists{
+      padding: 0;
+      padding-left: 10px;
+      font-size: 12px;
+  }
+    .nav-links{
+        padding: 0 1rem;
+    }
+    .search-input{
+        padding: 0.4rem 1rem;
+    }
+    .heading-1{
+        font-size: 1.5rem;
+    }
+    .strong{
+    font-size: 2rem;
+    }
+    .heading-2{
+        font-size:1rem ;
+    }
+.data-bundle{
+    width: 80%;
+}
+ .bundle-heading{
+            font-size: 14px;
+        }
+     
+    }
+ 
+
+@media (max-width:567px){
+.data-bundle{
+    width: 90%;
+}
+    .bundle-heading{
+        font-size: 12px;
+    }
+    
+ 
+}
+
